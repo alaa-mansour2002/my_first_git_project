@@ -17,11 +17,9 @@ jobs:
 
 
      steps:
-       - name: 'after folder contents'
-         run: ls
+       - uses: actions/checkout@v3
+       - name: "Login to Docker hup"
+        run: docker login --username alaamansor2002 --password dckr_pat_yaAejgrnl5F8IYDvOc0qb9Jl7uE
          
-       - uses: actions/checkout@v3  
+       
 
-
-       - name: 'after folder contents'
-         run: ls
