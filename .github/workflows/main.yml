@@ -16,5 +16,5 @@ jobs:
        - name: 'Testing Github action'
          run: pwd
        - name: 'Testing printing'
-         run: echo alaa
+         run: echo lelo
 
