@@ -17,8 +17,8 @@ jobs:
 
 
     steps:
-       - uses: actions/checkout@v3
-       - name: "Login to Docker hup"
+      - uses: actions/checkout@v3
+      - name: "Login to Docker hup"
         run: docker login --username alaamansor2002 --password dckr_pat_yaAejgrnl5F8IYDvOc0qb9Jl7uE
          
        
