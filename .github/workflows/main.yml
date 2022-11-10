@@ -1,8 +1,12 @@
 
 on:
- puch:
-   branchs:
-    - master
+ push:
+   branches:
+     - master
+
+
+
+
 
 
 
