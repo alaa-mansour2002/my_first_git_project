@@ -17,11 +17,10 @@ jobs:
 
 
      steps:
-       
-       - name: 'printing folder contents'
+       - name: 'after folder contents'
          run: ls
-
-       -uses: actions/checkout@v3  
+         
+       - uses: actions/checkout@v3  
 
 
        - name: 'after folder contents'
